@@ -1,0 +1,59 @@
+* {
+    margin:0;
+}
+body{
+    color: white;
+    background-color: black; 
+}
+h1#name{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter; 
+    font-size: 20px;
+    background-color: #333;
+    text-align: left;
+}
+
+h1#name a:link{
+    color:white;
+    text-decoration: none;
+
+}
+h1#name a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+h1#name a:hover{
+    color: #666666;
+    text-decoration: none;
+}
+
+nav#topMenu{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+}
+
+li.guide{
+    display: inline-block;
+}
+
+li.guide a:link{
+    color: white;
+    text-decoration: none;
+}
+
+li.guide a:visited{
+    color: white;
+    text-decoration: none;
+
+}
+
+li.guide a:hover{
+    color: #666666;
+    text-decoration: none;
+    /* background-color: #cccccc; */
+
+}
