@@ -3,69 +3,39 @@
 }
 
 body{
-    color: white;
+    color:#ffffff;
     background-color: black; 
+    text-align: center;
 }
-/* h1#name{
-    color:white;
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+#name{
     font-family: 'Roboto', sans-serif;
     font-weight: lighter; 
     font-size: 17px;
     height: 44px;
     background-color: #181818;
     text-align: left;
-    vertical-align: middle;
     z-index: -1;
-} */
-
-h1#name a:link{
-    color:white;
-    text-decoration: none;
-
 }
-h1#name a:visited{
-    color: white;
-    text-decoration: none;
-}
-
-h1#name a:hover{
-    /* color: #666666; */
-    text-decoration: none;
-}
-
-nav#topMenu{
-    font-family: 'Indie Flower', cursive;
-    font-weight: bold;
-    text-align: center;
-    float: right;
-    z-index: 9999;
-}
-
-li.guide >a{
-    display: inline-block;
-    color: yellow;
-}
-
-li.guide:hover{
-    color: Yellow;
-}
-
-li.guide a:link{
-    color: white;
-    text-decoration: none;
-}
-
-li.guide a:visited{
-    color: white;
-    text-decoration: none;
+.guide{
+    padding-left: 0;
+    list-style: none;
+    display:inline;
 
 }
 
-/* .guide:hover{
+.guide>a:hover{
     color: #666666;
-    text-decoration: none; */
-    /* position: relative; */
-    /* z-index: 100; */
-    /* background-color: #cccccc; */
+}
 
-/* } */
+#tagline{
+}
