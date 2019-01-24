@@ -1,11 +1,12 @@
 * {
     margin:0;
 }
+
 body{
     color: white;
     background-color: black; 
 }
-h1#name{
+/* h1#name{
     color:white;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter; 
@@ -15,7 +16,7 @@ h1#name{
     text-align: left;
     vertical-align: middle;
     z-index: -1;
-}
+} */
 
 h1#name a:link{
     color:white;
@@ -28,7 +29,7 @@ h1#name a:visited{
 }
 
 h1#name a:hover{
-    color: none;
+    /* color: #666666; */
     text-decoration: none;
 }
 
@@ -40,8 +41,13 @@ nav#topMenu{
     z-index: 9999;
 }
 
-li.guide{
+li.guide >a{
     display: inline-block;
+    color: yellow;
+}
+
+li.guide:hover{
+    color: Yellow;
 }
 
 li.guide a:link{
@@ -55,11 +61,11 @@ li.guide a:visited{
 
 }
 
-li.guide a:hover{
+/* .guide:hover{
     color: #666666;
-    text-decoration: none;
-    position: relative;
-    z-index: 100;
+    text-decoration: none; */
+    /* position: relative; */
+    /* z-index: 100; */
     /* background-color: #cccccc; */
 
-}
+/* } */
