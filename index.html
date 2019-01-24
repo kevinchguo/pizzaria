@@ -35,27 +35,27 @@
             <h3 class="sectionTitle"><a href="#topMenu">Menu</a></h3>
             <div class="pizza">
                 <p class="pizzaName">Object of My Desire</p>
-                <p class="description">A programmers delight, this classic has string cheese, an array of BBQ meats and 1 special sauce.</p>
+                <p class="description">A programmers delight... <br>This classic has string cheese, <br>an array of BBQ meats <br>and 1 special sauce.</p>
                 <p class="price">19.99</p>
             </div>
             <div class="pizza">
                     <p class="pizzaName">Four Loop</p>
-                    <p class="description">Spin your wheel with this quattro cheese mix doused in garlic and truffle oil. Loop there it is!</p>
+                    <p class="description">Spin your wheel <br>with this quattro cheese mix <br>doused in garlic and truffle oil. <br>Loop there it is!</p>
                     <p class="price">44.44</p>
             </div>
             <div class="pizza">
                     <p class="pizzaName">Conditional Love</p>
-                    <p class="description">This island favorite doesn't give you a chance to say no. Korean bulgogi meat, kim chee, mozzarella cheese and onions always returns true! Boo~Ya!</p>
+                    <p class="description">This island favorite doesn't <br>give you a chance to say no. <br>Korean bulgogi meat, kim chee, mozzarella cheese <br>and onions always returns true! <br>Boo~Ya!</p>
                     <p class="price">22.14</p>
             </div>
             <div class="pizza">
                     <p class="pizzaName">The DOM</p>
-                    <p class="description">This dynamic blend of Duck, Olives and Mango will change your original thought of what a pizza should be. The only thing constant is change for this bad boy!</p>
+                    <p class="description">This dynamic blend of Duck, <br>Olives and Mango will change your original thought <br>of what a pizza should be. The only thing constant is <br>change for this bad boy!</p>
                     <p class="price">16.99</p>
             </div>
             <div class="pizza">
                     <p class="pizzaName">Conjunction Function</p>
-                    <p class="description">Create your own pie by passing in handpicked fresh ingredients. Invoke your appetite and creativity! Mamma Mia return back to glory!</p>
+                    <p class="description">Create your own pie by <br>passing in handpicked fresh ingredients. <br>Invoke your appetite and creativity! <br>Mamma Mia return back to glory!</p>
                     <p class="price">17.02</p>
             </div>
         </div>
@@ -64,9 +64,9 @@
         <div class="content">
             <h3 class="sectionTitle"><a href="#topMenu">Subscribe</a></h3>
                 <p id="deal">Sign up for our special deals!</p>
-                <input placeholder="First Name"></input>
-                <input placeholder="Last Name"></input>  
-                <input placeholder="email"></input>  
+                <input placeholder="First Name"></input><br>
+                <input placeholder="Last Name"></input><br>
+                <input placeholder="email"></input><br>
         </div>
     </section>
     <section id="visit">
@@ -74,7 +74,8 @@
             <h3 class="sectionTitle"><a href="#topMenu">Visit</a></h3>
                 <ul id="addy">
                     <li id="street">2800 Woodlawn Dr.<br>Honolulu, HI 96822</li>
-                    <li id="map"><a href="https://www.google.com/maps?ll=21.223782,-157.899628&z=13&t=m&hl=en&gl=US&mapclient=embed&cid=15585431400080676543"target="_blank">View Map</a></li>
+                    <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=manoa%20innovation%20center&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">pure black</a></div><style>.mapouter{text-align:right;height:600px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:600px;width:600px;}</style></div>
+                    <li id="map"><a href="https://www.google.com/maps?ll=21.223782,-157.899628&z=13&t=m&hl=en&gl=US&mapclient=embed&cid=15585431400080676543"target="_blank">View map in a new tab</a></li>
                 </ul>
                 <li class="hours">Monday - Saturday</li>
                 <li class="hours">12PM - 12AM</li>
@@ -88,5 +89,6 @@
         </div>
         <button onclick="topFunction()" id="#intro" title="#intro">Top</button>
     </footer>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 </body>
 </html>
