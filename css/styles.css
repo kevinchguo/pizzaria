@@ -9,9 +9,12 @@ h1#name{
     color:white;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter; 
-    font-size: 20px;
-    background-color: #333;
+    font-size: 17px;
+    height: 44px;
+    background-color: #181818;
     text-align: left;
+    vertical-align: middle;
+    z-index: -1;
 }
 
 h1#name a:link{
@@ -25,7 +28,7 @@ h1#name a:visited{
 }
 
 h1#name a:hover{
-    color: #666666;
+    color: none;
     text-decoration: none;
 }
 
@@ -34,6 +37,7 @@ nav#topMenu{
     font-weight: bold;
     text-align: center;
     float: right;
+    z-index: 9999;
 }
 
 li.guide{
@@ -54,6 +58,8 @@ li.guide a:visited{
 li.guide a:hover{
     color: #666666;
     text-decoration: none;
+    position: relative;
+    z-index: 100;
     /* background-color: #cccccc; */
 
 }
