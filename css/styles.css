@@ -29,9 +29,10 @@ a:visited{
     z-index: -1;
 }
 .guide{
-    padding-left: 0;
-    list-style: none;
-    display:inline;
+    padding: 10px;
+    /* list-style: none; */
+    text-align: center;
+    display:inline-block;
     font-size: 17px;
     font-family: 'Gamja Flower';
 }
