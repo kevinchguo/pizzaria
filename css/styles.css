@@ -19,23 +19,52 @@ a:visited{
     color: white;
 }
 
-#name{
-    font-family: 'Roboto';
-    font-weight: lighter; 
-    font-size: 17px;
-    height: 44px;
+#intro{
     background-color: #181818;
     text-align: left;
     z-index: -1;
+    display: inline;
 }
-.guide{
-    padding: 10px;
-    /* list-style: none; */
+
+#name{
+    font-size: 17px;
+    height: 44px;
+    /* background-color: #333333; */
+}
+
+.guide:nth-of-type(1) img{
+    background-color: white;
+    height: 25px;
     text-align: center;
-    display:inline-block;
+
+}
+
+#topMenu{
+    overflow: hidden;
+    height: 44px;
+    width: 100%;
+    /* position: fixed; */
+    background-color: #333333;
+    text-align: center;
+    
+}
+
+.guide{
+    padding: 15px;
+    /* list-style: none; */
+    /* height: 44px; */
+    display: initial;
     font-size: 17px;
     font-family: 'Gamja Flower';
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  
 
 .guide>a:hover{
     color: #666666;
