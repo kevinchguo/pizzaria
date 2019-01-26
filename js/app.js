@@ -1,20 +1,15 @@
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {myFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("myBtn").style.display = "block";
-  } else {
-    document.getElementById("myBtn").style.display = "none";
+var navbar = document.getElementById("topMenu");
+console.log(navbar)
+var sticky = navbar.offsetTop;
+console.log(sticky)
+window.pageYOffset = document.getElementById('today')
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    navbar.classList.add('sticky')
+  }else{
+    navbar.classList.remove('sticky');
   }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  // document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-
-var Pizza = {
-  name: kevin,
 }
