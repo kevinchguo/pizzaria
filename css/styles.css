@@ -25,8 +25,8 @@ a {
 #tagLine{
     color: lime;
     /* background-color: grey; */
-    margin-left: 750px;
-    margin-right: 750px;
+    /* margin-left: 750px; */
+    /* margin-right: 750px; */
     text-align: center;
 }
 
@@ -62,8 +62,8 @@ a {
 
 #today{
     background-color: blueviolet;
-    margin-left: 800px;
-    margin-right: 800px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 #special{
@@ -73,8 +73,8 @@ a {
 #menu{
     color: black;
     background-color: cadetblue;
-    margin-left: 600px;
-    margin-right: 600px;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
 .pizzaName{
@@ -95,15 +95,15 @@ a {
 #subscribe{
     background-color: #034f84;
     padding: 20px;
-    margin-left: 600px;
-    margin-right: 600px;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
 #visit{
     background-color: #034f84;
     padding: 20px;
-    margin-left: 600px;
-    margin-right: 600px;
+    margin-left: 350px;
+    margin-right: 350px;
 }
 
 /* #myBtn {
