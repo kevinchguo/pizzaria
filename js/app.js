@@ -1,11 +1,16 @@
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {
+  stickyTop();
+  topButton();
+}
 
 var navbar = document.getElementById("topMenu");
 console.log(navbar)
 var sticky = navbar.offsetTop;
 console.log(sticky)
 
-function myFunction() {
+window.addEventListener('scroll', stickyTop);
+
+function stickyTop() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add('sticky')
   }else{
@@ -13,21 +18,20 @@ function myFunction() {
   }
 }
 
-// window.onscroll = function() {scrollFunction()};
 
-// function scrollFunction() {
-//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//     document.getElementById("myBtn").style.display = "block";
-//   } else {
-//     document.getElementById("myBtn").style.display = "none";
-//   }
-// }
+function topButton() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
 
-// // When the user clicks on the button, scroll to the top of the document
-// function topFunction() {
-//   document.body.scrollTop = 0;
-//   document.documentElement.scrollTop = 0;
-// }
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 
 button.addEventListener('click', thankYou)
 

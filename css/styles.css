@@ -127,7 +127,7 @@ a {
     border-radius: 10px;
 }
 
-/* #myBtn {
+#myBtn {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -145,4 +145,4 @@ a {
   
   #myBtn:hover {
     background-color: #555;
-  } */
+  }
