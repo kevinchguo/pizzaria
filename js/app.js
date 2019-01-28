@@ -28,3 +28,11 @@ function myFunction() {
 //   document.body.scrollTop = 0;
 //   document.documentElement.scrollTop = 0;
 // }
+
+button.addEventListener('click', thankYou)
+
+function thankYou() {
+  var findDeal = document.getElementById('deal');
+  findDeal.style.color = 'lime'
+  findDeal.innerHTML = 'Thank you for subscribing. <br> We will send you details soon!'
+}

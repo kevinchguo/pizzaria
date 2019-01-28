@@ -25,9 +25,10 @@ a {
 #tagLine{
     color: lime;
     /* background-color: grey; */
-    /* margin-left: 750px; */
-    /* margin-right: 750px; */
+    margin-left: 750px;
+    margin-right: 750px;
     text-align: center;
+    margin: auto;
 }
 
 #topMenu {
@@ -62,8 +63,8 @@ a {
 
 #today{
     background-color: blueviolet;
-    margin-left: 400px;
-    margin-right: 400px;
+        margin-left: 700px auto;
+        margin-right: 700px auto;
 }
 
 #special{
@@ -73,8 +74,8 @@ a {
 #menu{
     color: black;
     background-color: cadetblue;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pizzaName{
@@ -94,16 +95,36 @@ a {
 
 #subscribe{
     background-color: #034f84;
-    padding: 20px;
-    margin-left: 500px;
-    margin-right: 500px;
+    padding-top: 50px；
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 #visit{
     background-color: #034f84;
     padding: 20px;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#deal {
+    display: block;
+    color: white;
+}
+
+#addy {
+    list-style-type: none;
+    text-align: center;
+}
+
+.hours { 
+    list-style-type: none;
+    color: yellow;
+}
+
+#button {
+    border-radius: 10px;
 }
 
 /* #myBtn {
