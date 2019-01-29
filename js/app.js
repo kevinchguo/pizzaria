@@ -19,6 +19,7 @@ function stickyTop() {
 }
 
 
+
 function topButton() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.getElementById("myBtn").style.display = "block";
@@ -27,13 +28,14 @@ function topButton() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+myBtn.addEventListener('click', topFunction)
+
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
 
-button.addEventListener('click', thankYou)
+submitButton.addEventListener('click', thankYou)
 
 function thankYou() {
   var findDeal = document.getElementById('deal');
